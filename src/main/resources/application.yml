@@ -1,0 +1,8 @@
+micronaut:
+  application:
+    name: mnRateLimitRedisDemo
+netty:
+  default:
+    allocator:
+      max-order: 3
+redis.uri: redis://localhost
